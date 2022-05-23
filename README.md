@@ -11,3 +11,5 @@
 1. 编辑server.js文件，添加相应else if
 2. 重新运行上方的命令
 
+## 后台启动应用
+`touch log node server.js 8888 >log log 2>&1 &`
